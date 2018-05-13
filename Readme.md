@@ -1,0 +1,3 @@
+This is a tiny test playground written for [/u/i_stole_your_swole](https://www.reddit.com/user/i_stole_your_swole) on Reddit in response to this thread: https://www.reddit.com/r/csharp/comments/8iw9u1/i_have_a_vs_2017_git_codebase_thats_25000_lines/
+
+It demonstrates one method for shipping two versions of the same app, where one is the version typically used (`MyApp`) but there's an alternate version that is used in other scenarios (`MyAppAlternateVersion`). The solution that he arrives to in the thread is the ideal one for the situation, I just wanted to present another alternative. (In particular, I wanted to show that an application-style assembly can be consumed as a class library since I don't feel like everyone knows that.)
